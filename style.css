@@ -176,3 +176,4 @@ footer a:hover,.who a:hover{color:var(--accent)}
   body{padding-bottom:72px}
   section{padding:40px 0}
 }
+.photo img{transform:scaleX(-1)}
