@@ -245,3 +245,18 @@ html.modal-on{overflow:hidden}
 .plat-note{color:var(--muted);font-size:14px;margin-top:12px;max-width:680px}
 footer small{font-size:12px;opacity:.8}
 .form-wrap form .small{margin-top:2px}
+/* telegram cleanup + form messenger */
+.tg-float{display:none}
+.btn-tg svg{width:16px;height:16px}
+.lg-plus svg{display:block}
+.msgr{border:0;padding:0;margin:2px 0}
+.msgr legend{font-size:14px;color:#dbe6ff;margin-bottom:8px}
+.msgr label{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:9px 16px;margin:0 8px 8px 0;cursor:pointer;font-size:15px;font-weight:600}
+.msgr input{accent-color:#fff;width:16px;height:16px;margin:0}
+.msgr label:has(input:checked){background:#fff;color:var(--accent)}
+.msgr label:has(input:checked) input{accent-color:var(--accent)}
+@media (max-width:560px){
+  .nav .btn-sm.btn-tg{display:inline-flex;padding:9px 12px}
+  .btn-tg span{display:none}
+  body{padding-bottom:0}
+}
