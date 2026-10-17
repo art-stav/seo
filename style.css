@@ -320,3 +320,33 @@ img{height:auto}
   .nav .btn-sm.btn-tg{width:40px;height:40px;padding:0;justify-content:center;border-radius:50%}
   .logo-t small{font-size:11px}
 }
+/* ===== dark theme (20:00–6:00 or device dark), Facebook-like ===== */
+html.dark{color-scheme:dark;
+  --bg:#18191a; --card:#242526; --ink:#e4e6eb; --muted:#b0b3b8; --line:#3a3b3c;
+  --accent:#4c8dff; --accent-soft:#263a5c; --ok:#3ccf7a; --warn:#ff6b6b;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 30px rgba(0,0,0,.25)}
+html.dark body{background:var(--bg)}
+html.dark header{background:rgba(24,25,26,.85)}
+html.dark .btn-primary{background:#2d6be0;color:#fff;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+html.dark .burger{background:var(--card);border-color:var(--line)}
+html.dark .burger i{background:var(--ink)}
+html.dark .ico.red{background:#3d2526}
+html.dark .shots figure{background:var(--card);border-color:var(--line)}
+html.dark .article p,html.dark .article li{color:#d6d8dc}
+html.dark .article code{background:#3a3b3c}
+html.dark .ba .good{border-color:#2f5c40}
+html.dark .done li{color:#d0d3d8}
+html.dark .lg{color:#b0b3b8}
+html.dark .lg-more{background:var(--accent-soft)}
+html.dark .chip{background:var(--card);border-color:var(--line)}
+html.dark .form-wrap{background:linear-gradient(135deg,#1b2a52,#24427f)}
+html.dark input,html.dark textarea{background:#3a3b3c;color:var(--ink)}
+html.dark input::placeholder,html.dark textarea::placeholder{color:#9a9da3}
+html.dark form .btn{background:#fff;color:#1d4fc4}
+html.dark .msgr label:has(input:checked){background:#fff;color:#1d4fc4}
+html.dark .modal{background:rgba(0,0,0,.6)}
+html.dark .modal-form input:not([type=radio]):not([type=checkbox]){background:var(--bg)}
+html.dark .opt-check span:before{background:var(--bg);border-color:#5a5d63}
+html.dark .opt:hover span{border-color:#5a5d63}
+html.dark .back-btn{background:rgba(36,37,38,.8);border-color:var(--line);color:var(--ink)}
+html.dark .pill,html.dark .kicker{color:#7fb0ff}
