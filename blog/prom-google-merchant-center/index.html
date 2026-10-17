@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Як підключити Prom до Google Merchant Center: фід, нові товари | Роман</title>
+<meta name="description" content="Покроково: як створити фід на Prom, додати його в Google Merchant Center і зробити так, щоб нові товари потрапляли в Google Покупки автоматично.">
+<link rel="canonical" href="https://seoroman.com/blog/prom-google-merchant-center/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Як підключити Prom до Google Merchant Center: фід, нові товари | Роман">
+<meta property="og:description" content="Покроково: як створити фід на Prom, додати його в Google Merchant Center і зробити так, щоб нові товари потрапляли в Google Покупки автоматично.">
+<meta property="og:url" content="https://seoroman.com/blog/prom-google-merchant-center/">
+<meta property="og:image" content="https://seoroman.com/img/roman.jpg">
+<meta property="og:locale" content="uk_UA">
+
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css?v=1792242129">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Як підключити товари з Prom до Google Merchant Center, щоб нові додавались самі", "datePublished": "2026-10-17", "inLanguage": "uk", "url": "https://seoroman.com/blog/prom-google-merchant-center/", "image": "https://seoroman.com/img/roman.jpg", "author": {"@type": "Person", "name": "Роман", "url": "https://seoroman.com/"}}</script>
+
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="../../" aria-label="Роман, реклама і SEO"><span class="logo-mk"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19v-4M10 19v-7M15 19v-10"/><path d="M14 6l5-1 1 5"/><path d="M19 5l-6 6"/></svg></span><span class="logo-t"><b>Роман</b><small>реклама і SEO</small></span></a>
+    <nav class="navlinks"><a href="../../">Головна</a><a href="../../shopping/">Реклама товарів</a><a href="../../seo/">SEO</a><a href="../../kartky/">Картки товарів</a><a href="../../blog/" class=on>Статті</a></nav>
+    <div class="nav-r">
+      <a class="btn btn-primary btn-sm btn-tg" href="https://t.me/seo5800" target="_blank" rel="noopener" aria-label="Написати в Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3L18.7 19.4c-.2 1.1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13.1l-4.8-1.5c-1-.3-1.1-1 .2-1.5L20.4 2.9c.9-.3 1.7.2 1.5 1.4z"/></svg><span>Написати в Telegram</span></a>
+      <button class="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="mnav"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+  <nav class="mnav" id="mnav"><a href="../../">Головна</a><a href="../../shopping/">Реклама товарів</a><a href="../../seo/">SEO</a><a href="../../kartky/">Картки товарів</a><a href="../../blog/" class=on>Статті</a></nav>
+</header>
+<script>(function(){var b=document.querySelector('.burger'),h=document.querySelector('header');b.addEventListener('click',function(){var o=h.classList.toggle('menu-open');b.setAttribute('aria-expanded',o);});document.querySelectorAll('.mnav a').forEach(function(a){a.addEventListener('click',function(){h.classList.remove('menu-open');b.setAttribute('aria-expanded','false');});});})();</script>
+<main>
+<div class="wrap crumbs"><a href="../../">Головна</a> / <a href="../../blog/">Статті</a> / Google Покупки</div>
+<article class="article">
+<h1>Як підключити товари з Prom до Google Merchant Center, щоб нові додавались самі</h1>
+<div class="pubdate">Роман · 17 жовтня 2026 · 6 хв читання</div>
+<p class="lead">Щоб товари з Prom показувались у Google Покупках, їх треба передати в Merchant Center через фід. Розберемо, як це зробити правильно, і де найчастіше помиляються: через одну галочку нові товари роками не потрапляють у Google.</p>
+<div class="toc"><b>Зміст</b><ol>
+<li><a href="#s1">Що таке фід і навіщо він</a></li>
+<li><a href="#s2">Як створити фід на Prom</a></li>
+<li><a href="#s3">Як додати фід у Merchant Center</a></li>
+<li><a href="#s4">Головна помилка: фід лише з вибраними товарами</a></li>
+<li><a href="#s5">Що перевірити після підключення</a></li>
+</ol></div>
+
+<h2 id="s1">Що таке фід і навіщо він</h2>
+<p>Фід це файл зі списком ваших товарів: назва, ціна, фото, наявність, посилання. Prom формує його автоматично, а Merchant Center (кабінет товарів Google) раз на добу забирає цей файл за посиланням. Так товари потрапляють у Google Покупки і в рекламу.</p>
+
+<h2 id="s2">Як створити фід на Prom</h2>
+<ol>
+<li>У кабінеті Prom відкрийте розділ експорту товарів.</li>
+<li>Оберіть формат <b>Google Merchant Center (XML)</b> і мову, якою написані товари.</li>
+<li>У виборі товарів поставте <b>«всі групи і всі позиції»</b> та лише опубліковані товари.</li>
+<li>Скопіюйте посилання на фід. Саме посилання, а не завантажений файл: так Google завжди бачитиме актуальні ціни.</li>
+</ol>
+<div class="note"><p>Файл, завантажений вручну, швидко застаріває. Ціна на сайті змінилась, а у Google стара, і товар відхиляють. Посилання оновлюється само.</p></div>
+
+<h2 id="s3">Як додати фід у Merchant Center</h2>
+<ol>
+<li>У Merchant Center відкрийте «Товари» → «Джерела даних» і додайте нове джерело.</li>
+<li>Оберіть варіант із файлом за посиланням (запланована вибірка) і вставте посилання з Prom.</li>
+<li>Вкажіть країну продажу і мову, ту саму, що й у фіді.</li>
+<li>Поставте щоденне оновлення, наприклад уночі, і запустіть першу вибірку вручну.</li>
+</ol>
+<p>Через кілька хвилин у джерелі з'явиться кількість товарів. Перевірка Google триває до кількох днів.</p>
+<div class="inline-cta"><img src="../../img/roman.jpg" alt="Роман, фахівець з Google Ads і SEO"><div><b>Не хочете розбиратись самі?</b><span>Підключу Prom до Merchant Center і перевірю, щоб у Google потрапили всі товари.</span></div><a class="btn btn-primary" href="#form">Перевірити мій магазин</a></div>
+<h2 id="s4">Головна помилка: фід лише з вибраними товарами</h2>
+<p>При створенні експорту на Prom можна вибрати конкретні товари. Тоді в посиланні зберігається фіксований список, і <b>нові товари в Google самі не потрапляють</b>. Власник додає товари на Prom, а в Google Покупках їх немає, і реклама на них не показується.</p>
+<p>Нещодавно я бачив це в магазині вентиляції: у фіді було 28 товарів, а один новий товар не потрапляв у Google з моменту додавання. Після переходу на «всі групи і всі позиції» в Google одразу стало 29 товарів, а нові тепер додаються автоматично щоночі.</p>
+<p><b>Як перевірити у себе:</b> порівняйте кількість товарів у Merchant Center з кількістю опублікованих товарів на Prom. Якщо в Google менше, найімовірніше, у вас фід із вибраними товарами.</p>
+
+<h2 id="s5">Що перевірити після підключення</h2>
+<ul>
+<li><b>Бренд.</b> На Prom він береться з поля «Виробник». Якщо поле порожнє, у Google буде «без бренду», і товар показується гірше.</li>
+<li><b>Ціни і наявність</b> збігаються з сайтом.</li>
+<li><b>Фото</b> без написів і водяних знаків.</li>
+<li><b>Помилки оновлення.</b> Буває, що сервер Prom не відповідає вночі, і оновлення не відбувається. Якщо в джерелі статус помилки, натисніть оновлення вручну.</li>
+</ul>
+<p>Якщо товари відхилені, детально про причини в статті <a href="../../blog/merchant-center-vidkhyleni-tovary/">«Товари відхилені в Merchant Center: що робити»</a>.</p>
+<div class="author"><img src="../../img/roman.jpg" alt="Роман, фахівець з Google Ads і SEO"><div><b>Роман</b><p>Налаштовую Google Покупки, Google Ads і SEO для інтернет-магазинів і малого бізнесу. Пишу простою мовою, без «води». Якщо щось із цієї статті не виходить, напишіть, підкажу.</p><a class="btn btn-ghost btn-sm" href="https://t.me/seo5800" target="_blank" rel="noopener">Написати в Telegram</a></div></div>
+</article><section id="form">
+  <div class="wrap">
+    <div class="form-wrap">
+      <div>
+        <h2>Товари з Prom не потрапляють у Google?</h2>
+        <p class="sub">Залиште посилання на магазин, і я безкоштовно перевірю фід і Merchant Center та напишу, що заважає.</p>
+      </div>
+      <form action="https://formsubmit.co/globalseo2000@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Заявка: стаття «Prom у Merchant Center»">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://seoroman.com/dyakuiu/">
+        <input type="text" name="_honey" style="display:none">
+        <label class="vh" for="f-site">Сайт</label><input id="f-site" name="site" autocomplete="url" placeholder="Посилання на сайт або магазин" required>
+        <label class="vh" for="f-phone">Телефон</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Ваш телефон" required>
+        <fieldset class="msgr"><legend>Де вам зручніше отримати відповідь?</legend><label><input type="radio" name="messenger" value="Telegram" checked><span>Telegram</span></label><label><input type="radio" name="messenger" value="Viber"><span>Viber</span></label><label><input type="radio" name="messenger" value="WhatsApp"><span>WhatsApp</span></label></fieldset>
+        <label class="vh" for="f-name">Ім'я</label><input id="f-name" name="name" autocomplete="name" placeholder="Ваше ім'я (необов'язково)">
+        <label class="vh" for="f-msg">Повідомлення</label><textarea id="f-msg" name="msg" placeholder="Що турбує? (необов'язково)"></textarea>
+        <button class="btn" type="submit">Знайти 3 помилки безкоштовно</button>
+        <p class="small">Відповім протягом доби. Без спаму і дзвінків, якщо самі не попросите.</p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap"><span>© 2026 Роман · Google Ads, Merchant Center, SEO, картки товарів<br><small>Назви платформ належать їхнім власникам. Я не є офіційним партнером цих сервісів.</small></span></div>
+</footer>
+
+
+<button class="back-btn" type="button" aria-label="Повернутися назад"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script>(function(){var b=document.querySelector('.back-btn');if(!b)return;var saved=null;
+function upd(){b.classList.toggle('show',window.scrollY>500||saved!==null&&Math.abs(window.scrollY-saved)>200);}
+document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(a&&a.getAttribute('href').length>1)saved=window.scrollY;},true);
+b.addEventListener('click',function(){var y=saved!==null?saved:0;saved=null;window.scrollTo({top:y,behavior:'smooth'});});
+window.addEventListener('scroll',upd,{passive:true});upd();})();</script>
+</body>
+</html>
