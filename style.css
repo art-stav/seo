@@ -379,3 +379,9 @@ html.dark .msgr label:has(input:checked) input{accent-color:#7fb0ff}
 footer small a{color:inherit;text-decoration:underline}
 .privacy h2{font-size:22px;margin-top:34px}
 .privacy p,.privacy li{font-size:16px}
+/* privacy: compact legal text */
+.privacy h1{font-size:34px}
+.privacy h2{font-size:18px;margin-top:26px}
+.privacy p,.privacy li{font-size:15px;line-height:1.6;color:var(--muted)}
+.privacy strong,.privacy b{color:var(--ink)}
+@media (max-width:560px){.privacy h1{font-size:28px}.privacy p,.privacy li{font-size:14.5px}}
