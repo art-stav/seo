@@ -313,3 +313,10 @@ footer small{font-size:12px}
 img{height:auto}
 .btn-tg{background:#1679b8}
 .plat-h{font-weight:700}
+/* tighter header on small laptops */
+@media (max-width:1180px) and (min-width:901px){
+  .navlinks{gap:18px;font-size:14px}
+  .nav .btn-tg span{display:none}
+  .nav .btn-sm.btn-tg{width:40px;height:40px;padding:0;justify-content:center;border-radius:50%}
+  .logo-t small{font-size:11px}
+}
