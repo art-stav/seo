@@ -302,3 +302,9 @@ footer small{font-size:12px;opacity:.8}
   .nav .btn-sm.btn-tg{width:42px;height:42px;flex:0 0 42px;box-shadow:none;display:grid;place-items:center}
   .nav .btn-tg svg{width:22px;height:22px;margin:1px 0 0 -2px}
 }
+/* back / to-top button (mobile only) */
+.back-btn{display:none}
+@media (max-width:900px){
+  .back-btn{display:grid;place-items:center;position:fixed;right:16px;bottom:18px;z-index:30;width:44px;height:44px;border-radius:50%;border:1px solid rgba(15,23,42,.08);background:rgba(255,255,255,.72);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:var(--ink);box-shadow:0 6px 20px rgba(15,23,42,.12);cursor:pointer;opacity:0;transform:translateY(10px);pointer-events:none;transition:opacity .25s,transform .25s}
+  .back-btn.show{opacity:1;transform:none;pointer-events:auto}
+}

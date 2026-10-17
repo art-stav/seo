@@ -14,7 +14,7 @@
 <meta property="og:locale" content="uk_UA">
 
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../style.css?v=1792241699">
+<link rel="stylesheet" href="../style.css?v=1792242129">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Що ви робите щомісяця?", "acceptedAnswer": {"@type": "Answer", "text": "Додаю нові сторінки і статті, виправляю помилки, стежу за позиціями і щомісяця надсилаю звіт: що зроблено і що змінилось."}}, {"@type": "Question", "name": "У мене не магазин, а послуги. Ви працюєте з таким?", "acceptedAnswer": {"@type": "Answer", "text": "Так. Для сайтів послуг роблю окремі сторінки під кожну послугу і місто, налаштовую заявки з пошуку і Google Карти."}}, {"@type": "Question", "name": "Працюєте з Prom і Horoshop?", "acceptedAnswer": {"@type": "Answer", "text": "Так. На Prom можливостей менше, ніж на власному сайті, але назви, описи, категорії і мета-теги дають результат."}}, {"@type": "Question", "name": "Чи потрібна реклама разом з SEO?", "acceptedAnswer": {"@type": "Answer", "text": "Не обов'язково. Реклама дає клієнтів одразу, SEO працює на довшу перспективу. Часто їх поєднують на початку."}}, {"@type": "Question", "name": "Перевірка справді безкоштовна?", "acceptedAnswer": {"@type": "Answer", "text": "Так, 3 головні помилки покажу безкоштовно. Повний аудит зі списком усіх правок платний, вартість називаю заздалегідь."}}]}</script>
 
 </head>
@@ -84,5 +84,11 @@
 </footer>
 
 <script>(function(){var V={"audit": ["SEO-аудит сайту: покажу <em>3 головні помилки</em> безкоштовно", "Перевірю індексацію, швидкість з телефону, заголовки і технічні помилки. Протягом доби напишу, що заважає сайту в пошуку і що виправити насамперед."], "prom": ["SEO для магазину на <em>Prom</em>: більше переходів з Google", "Назви, описи, категорії і мета-теги так, щоб ваші товари на Prom знаходили в пошуку Google, а не лише всередині маркетплейсу."], "index": ["Сайту немає в <em>Google</em>? Знайду причину", "Перевірю, чому Google не бачить сторінки сайту: індексація, robots.txt, карта сайту, дублі. Протягом доби напишу, що виправити."]};var k=new URLSearchParams(location.search).get('v');var x=V[k];if(!x)return;var h=document.querySelector('.hero h1'),l=document.querySelector('.hero .lead');if(h)h.innerHTML=x[0];if(l)l.textContent=x[1];})();</script>
+<button class="back-btn" type="button" aria-label="Повернутися назад"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script>(function(){var b=document.querySelector('.back-btn');if(!b)return;var saved=null;
+function upd(){b.classList.toggle('show',window.scrollY>500||saved!==null&&Math.abs(window.scrollY-saved)>200);}
+document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(a&&a.getAttribute('href').length>1)saved=window.scrollY;},true);
+b.addEventListener('click',function(){var y=saved!==null?saved:0;saved=null;window.scrollTo({top:y,behavior:'smooth'});});
+window.addEventListener('scroll',upd,{passive:true});upd();})();</script>
 </body>
 </html>
