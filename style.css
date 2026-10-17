@@ -278,3 +278,11 @@ footer small{font-size:12px;opacity:.8}
   .nav .btn-sm.btn-tg{width:40px;height:40px;padding:0;justify-content:center;border-radius:50%;flex:0 0 40px}
   .btn-tg svg{width:18px;height:18px}
 }
+/* "а також" chips + logos in color on touch screens */
+.also{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:18px}
+.also-t{font-size:14px;color:var(--muted);margin-right:4px}
+.chip{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;color:var(--ink);transition:border-color .15s,color .15s}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+@media (max-width:560px){.also{gap:6px}.chip{font-size:13px;padding:7px 12px}.also-t{width:100%}}
+@media (hover:none){.lg{color:var(--b)}}
+@media (max-width:560px){.also{display:grid;grid-template-columns:1fr 1fr}.also-t{grid-column:1/-1}.chip{text-align:center}}
