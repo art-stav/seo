@@ -15,7 +15,7 @@
 <meta name="robots" content="noindex">
 <script>(function(){try{var h=new Date().getHours();if(h>=20||h<6||matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.classList.add('dark')}catch(e){}})()</script>
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../style.css?v=1792259817">
+<link rel="stylesheet" href="../style.css?v=1792261352">
 
 
 </head>
@@ -51,5 +51,6 @@ function upd(){b.classList.toggle('show',window.scrollY>500||saved!==null&&Math.
 document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(a&&a.getAttribute('href').length>1)saved=window.scrollY;},true);
 b.addEventListener('click',function(){var y=saved!==null?saved:0;saved=null;window.scrollTo({top:y,behavior:'smooth'});});
 window.addEventListener('scroll',upd,{passive:true});upd();})();</script>
+
 </body>
 </html>

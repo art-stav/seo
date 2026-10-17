@@ -350,3 +350,23 @@ html.dark .opt-check span:before{background:var(--bg);border-color:#5a5d63}
 html.dark .opt:hover span{border-color:#5a5d63}
 html.dark .back-btn{background:rgba(36,37,38,.8);border-color:var(--line);color:var(--ink)}
 html.dark .pill,html.dark .kicker{color:#7fb0ff}
+/* dark form: softer buttons */
+html.dark form .btn{background:#3b7bf0;color:#fff;box-shadow:none}
+html.dark .msgr label{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.2)}
+html.dark .msgr label:has(input:checked){background:rgba(76,141,255,.35);border-color:#7fb0ff;color:#fff}
+html.dark .msgr label:has(input:checked) input{accent-color:#7fb0ff}
+/* response timer in form */
+.timer{margin-top:26px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:20px;padding:18px 20px;max-width:380px}
+.timer-t{font-size:14px;color:#dbe6ff;margin-bottom:10px}
+.timer-d{display:flex;align-items:center;gap:6px;font-variant-numeric:tabular-nums;font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:40px;font-weight:700;line-height:1;color:#fff}
+.timer-d span{background:rgba(0,0,0,.22);border-radius:10px;padding:8px 10px;min-width:64px;text-align:center}
+.timer-d i{font-style:normal;opacity:.7;animation:blink 1s steps(1) infinite}
+.timer-u{display:flex;gap:6px;margin-top:6px;font-size:12px;color:#cfdcff}
+.timer-u span{min-width:64px;text-align:center;margin-right:10px}
+.timer-u span:last-child{margin-right:0}
+@keyframes blink{50%{opacity:.25}}
+@media (max-width:560px){.timer-d{font-size:32px}.timer-d span{min-width:54px}.timer-u span{min-width:54px}}
+.timer-d{align-items:flex-start}
+.timer-d b{display:flex;flex-direction:column;align-items:center;gap:6px;font-weight:700}
+.timer-d small{font:500 12px -apple-system,"SF Pro Text",Inter,Arial,sans-serif;color:#cfdcff}
+.timer-d i{padding-top:8px}

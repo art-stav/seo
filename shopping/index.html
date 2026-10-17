@@ -15,7 +15,7 @@
 
 <script>(function(){try{var h=new Date().getHours();if(h>=20||h<6||matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.classList.add('dark')}catch(e){}})()</script>
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../style.css?v=1792259817">
+<link rel="stylesheet" href="../style.css?v=1792261352">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Перевірка справді безкоштовна?", "acceptedAnswer": {"@type": "Answer", "text": "Так. Я дивлюсь магазин і показую 3 головні помилки. Далі вирішуєте ви."}}, {"@type": "Question", "name": "Скільки коштує налаштування?", "acceptedAnswer": {"@type": "Answer", "text": "Залежить від кількості товарів і стану акаунта. Після безкоштовної перевірки називаю фіксовану суму до початку робіт."}}, {"@type": "Question", "name": "У мене вже є ProSale на Prom. Навіщо Google?", "acceptedAnswer": {"@type": "Answer", "text": "ProSale показує товари всередині каталогу Prom. Google Покупки показують їх у пошуку Google, де вас шукають ще до Prom. Їх можна поєднувати."}}, {"@type": "Question", "name": "У мене мало товарів, чи є сенс?", "acceptedAnswer": {"@type": "Answer", "text": "Так. У магазині з прикладу 29 товарів, і всі вони тепер у Google."}}, {"@type": "Question", "name": "Чи потрібні доступи для перевірки?", "acceptedAnswer": {"@type": "Answer", "text": "Ні, для безкоштовної перевірки достатньо посилання. Доступ знадобиться лише для самої роботи, паролі не потрібні."}}, {"@type": "Question", "name": "Ви працюєте з моєю платформою?", "acceptedAnswer": {"@type": "Answer", "text": "Prom, Horoshop, Shopify, WooCommerce, OpenCart, WordPress, а також самописні сайти, якщо є файл з товарами або його можна зробити."}}, {"@type": "Question", "name": "Ви гарантуєте продажі?", "acceptedAnswer": {"@type": "Answer", "text": "Ні. Чесно кажучи, продажів не гарантує ніхто. Я гарантую якісне налаштування, зрозумілий план і звіт."}}]}</script>
 
 </head>
@@ -78,6 +78,7 @@
       <div>
         <h2>Безкоштовна перевірка магазину</h2>
         <p class="sub">Залиште посилання на магазин, і протягом доби я напишу 3 головні помилки, які заважають продажам з Google.</p>
+        <div class="timer" aria-live="off"><div class="timer-t">Залиште сайт зараз, і відповідь прийде протягом</div><div class="timer-d"><b><span data-h>24</span><small>год</small></b><i>:</i><b><span data-m>00</span><small>хв</small></b><i>:</i><b><span data-s>00</span><small>сек</small></b></div></div>
       </div>
       <form action="https://formsubmit.co/globalseo2000@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="Заявка: Google Shopping">
@@ -135,5 +136,6 @@ function upd(){b.classList.toggle('show',window.scrollY>500||saved!==null&&Math.
 document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(a&&a.getAttribute('href').length>1)saved=window.scrollY;},true);
 b.addEventListener('click',function(){var y=saved!==null?saved:0;saved=null;window.scrollTo({top:y,behavior:'smooth'});});
 window.addEventListener('scroll',upd,{passive:true});upd();})();</script>
+<script>(function(){var t=document.querySelector('.timer');if(!t||!('IntersectionObserver' in window))return;var end=0,h=t.querySelector('[data-h]'),m=t.querySelector('[data-m]'),s=t.querySelector('[data-s]');function p(n){return(n<10?'0':'')+n}function tick(){var r=Math.max(0,Math.round((end-Date.now())/1000));h.textContent=p(Math.floor(r/3600));m.textContent=p(Math.floor(r%3600/60));s.textContent=p(r%60)}new IntersectionObserver(function(e,o){if(e[0].isIntersecting){end=Date.now()+86400000;t.classList.add('on');tick();setInterval(tick,1000);o.disconnect()}},{threshold:.4}).observe(t)})();</script>
 </body>
 </html>
