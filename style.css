@@ -286,3 +286,5 @@ footer small{font-size:12px;opacity:.8}
 @media (max-width:560px){.also{gap:6px}.chip{font-size:13px;padding:7px 12px}.also-t{width:100%}}
 @media (hover:none){.lg{color:var(--b)}}
 @media (max-width:560px){.also{display:grid;grid-template-columns:1fr 1fr}.also-t{grid-column:1/-1}.chip{text-align:center}}
+@media (max-width:560px){.chip{white-space:nowrap;padding:9px 6px;font-size:13.5px;overflow:hidden;text-overflow:ellipsis}}
+@media (max-width:360px){.chip{font-size:12.5px}}
