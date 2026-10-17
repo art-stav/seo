@@ -375,3 +375,7 @@ html.dark .msgr label:has(input:checked) input{accent-color:#7fb0ff}
 .timer-d{justify-content:center}
 .form-wrap > div:first-child{display:flex;flex-direction:column}
 @media (min-width:901px){.form-wrap > div:first-child .timer{margin-top:auto;margin-bottom:auto}}
+.form-wrap .small a{color:#fff;text-decoration:underline}
+footer small a{color:inherit;text-decoration:underline}
+.privacy h2{font-size:22px;margin-top:34px}
+.privacy p,.privacy li{font-size:16px}

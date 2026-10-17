@@ -15,7 +15,7 @@
 
 <script>(function(){try{var h=new Date().getHours();if(h>=20||h<6||matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.classList.add('dark')}catch(e){}})()</script>
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../style.css?v=1792261707">
+<link rel="stylesheet" href="../style.css?v=1792262935">
 
 
 </head>
@@ -75,14 +75,14 @@
         <label class="vh" for="f-name">Ім'я</label><input id="f-name" name="name" autocomplete="name" placeholder="Ваше ім'я (необов'язково)">
         <label class="vh" for="f-msg">Повідомлення</label><textarea id="f-msg" name="msg" placeholder="Які 2 товари оформити? (посилання)"></textarea>
         <button class="btn" type="submit">Отримати 2 картки безкоштовно</button>
-        <p class="small">Відповім протягом доби. Без спаму і дзвінків, якщо самі не попросите.</p>
+        <p class="small">Відповім протягом доби. Без спаму і дзвінків, якщо самі не попросите. Надсилаючи заявку, ви підтверджуєте, що ознайомилися з <a href="https://seoroman.com/privacy/">Політикою конфіденційності</a>.</p>
       </form>
     </div>
   </div>
 </section>
 </main>
 <footer>
-  <div class="wrap"><span>© 2026 Роман · Google Ads, Merchant Center, SEO, картки товарів<br><small>Назви платформ належать їхнім власникам. Я не є офіційним партнером цих сервісів.</small></span></div>
+  <div class="wrap"><span>© 2026 Роман · Google Ads, Merchant Center, SEO, картки товарів<br><small>Назви платформ належать їхнім власникам. Я не є офіційним партнером цих сервісів. · <a href="../privacy/">Політика конфіденційності</a></small></span></div>
 </footer>
 <div class="modal" id="plat-modal" hidden>
   <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="pm-title" aria-describedby="pm-sub">
@@ -120,6 +120,6 @@ function upd(){b.classList.toggle('show',window.scrollY>500||saved!==null&&Math.
 document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(a&&a.getAttribute('href').length>1)saved=window.scrollY;},true);
 b.addEventListener('click',function(){var y=saved!==null?saved:0;saved=null;window.scrollTo({top:y,behavior:'smooth'});});
 window.addEventListener('scroll',upd,{passive:true});upd();})();</script>
-<script>(function(){var t=document.querySelector('.timer');if(!t||!('IntersectionObserver' in window))return;var end=0,h=t.querySelector('[data-h]'),m=t.querySelector('[data-m]'),s=t.querySelector('[data-s]');function p(n){return(n<10?'0':'')+n}function tick(){var r=Math.max(0,Math.round((end-Date.now())/1000));h.textContent=p(Math.floor(r/3600));m.textContent=p(Math.floor(r%3600/60));s.textContent=p(r%60)}new IntersectionObserver(function(e,o){if(e[0].isIntersecting){var k='formTimerEnd',now=Date.now();try{end=+localStorage.getItem(k)||0}catch(x){}if(!end||end<=now){end=now+86400000;try{localStorage.setItem(k,end)}catch(x){}}t.classList.add('on');tick();setInterval(tick,1000);o.disconnect()}},{threshold:.4}).observe(t)})();</script>
+<script>(function(){var t=document.querySelector('.timer');if(!t||!('IntersectionObserver' in window))return;var end=0,h=t.querySelector('[data-h]'),m=t.querySelector('[data-m]'),s=t.querySelector('[data-s]');function p(n){return(n<10?'0':'')+n}function tick(){var r=Math.max(0,Math.round((end-Date.now())/1000));h.textContent=p(Math.floor(r/3600));m.textContent=p(Math.floor(r%3600/60));s.textContent=p(r%60)}new IntersectionObserver(function(e,o){if(e[0].isIntersecting){var k='formTimerEnd',now=Date.now();try{end=+sessionStorage.getItem(k)||0}catch(x){}if(!end||end<=now){end=now+86400000;try{sessionStorage.setItem(k,end)}catch(x){}}t.classList.add('on');tick();setInterval(tick,1000);o.disconnect()}},{threshold:.4}).observe(t)})();</script>
 </body>
 </html>
