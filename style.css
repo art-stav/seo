@@ -385,3 +385,9 @@ footer small a{color:inherit;text-decoration:underline}
 .privacy p,.privacy li{font-size:15px;line-height:1.6;color:var(--muted)}
 .privacy strong,.privacy b{color:var(--ink)}
 @media (max-width:560px){.privacy h1{font-size:28px}.privacy p,.privacy li{font-size:14.5px}}
+/* theme toggle */
+.theme-btn{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--ink);display:grid;place-items:center;cursor:pointer;padding:0;flex:none}
+.theme-btn:hover{border-color:var(--accent);color:var(--accent)}
+.theme-btn .i-sun{display:none}
+html.dark .theme-btn .i-sun{display:block}
+html.dark .theme-btn .i-moon{display:none}
