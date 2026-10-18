@@ -53,6 +53,7 @@ function upd(){b.classList.toggle('show',window.scrollY>500||saved!==null&&Math.
 document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(a&&a.getAttribute('href').length>1)saved=window.scrollY;},true);
 b.addEventListener('click',function(){var y=saved!==null?saved:0;saved=null;window.scrollTo({top:y,behavior:'smooth'});});
 window.addEventListener('scroll',upd,{passive:true});upd();})();</script>
+<script data-goatcounter="https://seoroman.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 </body>
 </html>
