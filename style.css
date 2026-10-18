@@ -395,3 +395,5 @@ html.dark .theme-btn .i-moon{display:none}
 .post.dir:hover{transform:none}
 /* CLS fix: photo box keeps its width before the image loads */
 .photo{width:100%}
+/* all article cards same height in every row */
+.grid.posts{grid-auto-rows:1fr}
