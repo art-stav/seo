@@ -72,7 +72,6 @@ document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#
 b.addEventListener('click',function(){var y=saved!==null?saved:0;saved=null;window.scrollTo({top:y,behavior:'smooth'});});
 window.addEventListener('scroll',upd,{passive:true});upd();})();</script>
 <script data-goatcounter="https://seoroman.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "814de77f5f8247b6823631725cf60fc7"}'></script>
 <script>(function(){var t=document.querySelector('.timer');if(!t||!('IntersectionObserver' in window))return;var end=0,h=t.querySelector('[data-h]'),m=t.querySelector('[data-m]'),s=t.querySelector('[data-s]');function p(n){return(n<10?'0':'')+n}function tick(){var r=Math.max(0,Math.round((end-Date.now())/1000));h.textContent=p(Math.floor(r/3600));m.textContent=p(Math.floor(r%3600/60));s.textContent=p(r%60)}new IntersectionObserver(function(e,o){if(e[0].isIntersecting){var k='formTimerEnd',now=Date.now();try{end=+sessionStorage.getItem(k)||0}catch(x){}if(!end||end<=now){end=now+86400000;try{sessionStorage.setItem(k,end)}catch(x){}}t.classList.add('on');tick();setInterval(tick,1000);o.disconnect()}},{threshold:.4}).observe(t)})();</script>
 </body>
 </html>
