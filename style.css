@@ -393,3 +393,5 @@ html.dark .theme-btn .i-sun{display:block}
 html.dark .theme-btn .i-moon{display:none}
 /* article cards: no lift on hover (looked uneven) */
 .post.dir:hover{transform:none}
+/* CLS fix: photo box keeps its width before the image loads */
+.photo{width:100%}
