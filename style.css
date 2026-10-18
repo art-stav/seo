@@ -351,7 +351,7 @@ html.dark .opt:hover span{border-color:#5a5d63}
 html.dark .back-btn{background:rgba(36,37,38,.8);border-color:var(--line);color:var(--ink)}
 html.dark .pill,html.dark .kicker{color:#7fb0ff}
 /* dark form: softer buttons */
-html.dark form .btn{background:#3b7bf0;color:#fff;box-shadow:none}
+html.dark form .btn{background:#2257d6;color:#fff;box-shadow:none}
 html.dark .msgr label{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.2)}
 html.dark .msgr label:has(input:checked){background:rgba(76,141,255,.35);border-color:#7fb0ff;color:#fff}
 html.dark .msgr label:has(input:checked) input{accent-color:#7fb0ff}
