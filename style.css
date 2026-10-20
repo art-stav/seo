@@ -427,3 +427,4 @@ picture{display:contents}picture source{display:none}
 .arow[hidden]{display:none}
 @media (max-width:700px){.arow{grid-template-columns:1fr auto}.arow .tag{grid-row:auto;grid-column:1/-1}.arow b{grid-column:1/-1}.arow .adesc{grid-column:1/-1}.arow .meta{grid-row:auto;grid-column:1/-1}}
 @media (max-width:700px){.posts-top .post:nth-child(4),.posts-top .post:nth-child(5){display:none}.post-all{min-height:0;padding:22px}}
+.aempty{color:var(--muted);padding:18px 4px}
