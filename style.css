@@ -181,7 +181,7 @@ footer a:hover,.who a:hover{color:var(--accent)}
 .plat{padding:8px 0 24px}
 .plat-h{font-size:20px;letter-spacing:-.01em;margin-bottom:16px}
 .logos{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-.lg{--b:var(--ink);height:76px;display:flex;align-items:center;justify-content:center;gap:9px;background:var(--card);border:1px solid var(--line);border-radius:18px;color:var(--muted);transition:color .2s,border-color .2s,box-shadow .2s,transform .2s}
+.lg{--b:var(--ink);height:76px;display:flex;align-items:center;justify-content:center;gap:9px;background:var(--card);border:1px solid var(--line);border-radius:18px;color:var(--muted);transition:border-color .2s,box-shadow .2s,transform .2s}
 .lg:hover{color:var(--b);border-color:color-mix(in srgb,var(--b) 28%,var(--line));box-shadow:var(--shadow)}
 .lg-ico{width:24px;height:24px;flex:none}
 .lg-wide{height:22px;width:auto;aspect-ratio:24/4.3}
