@@ -97,7 +97,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 /* multi-page additions */
 .navlinks a.on{color:var(--ink);font-weight:600}
 .crumbs{font-size:14px;color:var(--muted);padding-top:28px}
-.crumbs a{color:var(--accent)}
+.crumbs a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 .dir{display:block;transition:transform .15s,box-shadow .15s}
 .dir:hover{transform:translateY(-3px);box-shadow:0 12px 36px rgba(15,23,42,.10)}
 .dir .more{display:inline-block;margin-top:14px;color:var(--accent);font-weight:600;font-size:15px}
@@ -335,7 +335,7 @@ html.dark .shots figure{background:var(--card);border-color:var(--line)}
 html.dark .article p,html.dark .article li{color:#d6d8dc}
 html.dark .article code{background:#3a3b3c}
 html.dark .ba .good{border-color:#2f5c40}
-html.dark .done li{color:#d0d3d8}
+html.dark .done li,html.dark .card li{color:#d0d3d8}
 html.dark .lg{color:#b0b3b8}
 html.dark .lg-more{background:var(--accent-soft)}
 html.dark .chip{background:var(--card);border-color:var(--line)}
