@@ -91,7 +91,7 @@
 
 <h2 id="s6">6. 6 common mistakes</h2>
 <ol>
-<li><b>One purchase is counted two or three times.</b> For example, the Google Ads tag, the GA4 import and a platform action are all set as primary. In one ventilation store I worked with, a single order was counted three times. After cleaning up the settings it was counted once, and the numbers in the account finally matched reality.</li>
+<li><b>One purchase is counted two or three times.</b> For example, the Google Ads tag, the GA4 import and a platform action are all set as primary. In one ventilation store I worked with, the account had three identical Purchase conversion actions, and the Maximize conversion value strategy was running even though Google Ads hadn't recorded a single conversion. We kept one primary purchase action from GA4 and temporarily switched to a strategy with a max CPC limit until enough data comes in.</li>
 <li><b>Opening the cart</b> or any page counts as a conversion. The ads look great on paper and buy the wrong people.</li>
 <li><b>A fixed value instead of the real order total.</b> Then you can't compare cheap and expensive products.</li>
 <li><b>No order ID.</b> Reloading the thank-you page creates a duplicate conversion.</li>
