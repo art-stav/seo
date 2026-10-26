@@ -428,3 +428,12 @@ picture{display:contents}picture source{display:none}
 @media (max-width:700px){.arow{grid-template-columns:1fr auto}.arow .tag{grid-row:auto;grid-column:1/-1}.arow b{grid-column:1/-1}.arow .adesc{grid-column:1/-1}.arow .meta{grid-row:auto;grid-column:1/-1}}
 @media (max-width:700px){.posts-top .post:nth-child(4),.posts-top .post:nth-child(5){display:none}.post-all{min-height:0;padding:22px}}
 .aempty{color:var(--muted);padding:18px 4px}
+
+/* Приклади робіт: галерея */
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}.gal.g1{grid-template-columns:1fr;margin-top:0}
+.gal figure{margin:0;background:#fff;border:1px solid #e6e9f0;border-radius:18px;padding:12px}
+.gal img{width:100%;height:auto;border-radius:10px;display:block}
+.gal figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+.ex-top{padding-bottom:10px}.ex-top .lead{max-width:720px}
+html.dark .gal figure{background:var(--card);border-color:var(--line)}
+@media(max-width:760px){.gal{grid-template-columns:1fr}}
