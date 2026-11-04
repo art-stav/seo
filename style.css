@@ -429,11 +429,25 @@ html,body{overflow-x:clip}
 .serp .lbl{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:8px;margin-bottom:6px;background:var(--bg)}
 .serp.bad{border-color:var(--warn)}
 .serp.good{border-color:var(--ok)}
-/* logo in request forms */
-.form-logo{margin:30px auto 0;display:grid;place-items:center;width:150px;height:150px;border-radius:44px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)}
-.form-logo-mk{width:104px;height:104px;border-radius:30px;background:linear-gradient(135deg,#5b8cff,#2f6fed 60%,#1e4fd6);display:grid;place-items:center;box-shadow:0 14px 34px rgba(8,20,60,.35),inset 0 1px 0 rgba(255,255,255,.35);border:1px solid rgba(255,255,255,.3)}
-@media (min-width:901px){.form-wrap > div:first-child .form-logo{margin-top:auto;margin-bottom:auto}}
-@media (max-width:900px){.form-logo{margin:22px 0 0;width:112px;height:112px;border-radius:34px}.form-logo-mk{width:78px;height:78px;border-radius:23px}.form-logo-mk svg{width:40px;height:40px}}
+/* app grid in request forms (iPhone style) */
+.form-apps{margin:30px auto 0;display:grid;grid-template-columns:repeat(3,64px);gap:18px 26px;justify-content:center;padding:24px 28px;border-radius:30px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);width:max-content}
+.app{display:flex;flex-direction:column;align-items:center;gap:7px}
+.app i{width:64px;height:64px;border-radius:15px;display:grid;place-items:center;box-shadow:0 8px 18px rgba(6,16,50,.28),inset 0 1px 0 rgba(255,255,255,.3);transition:transform .2s ease}
+.app:hover i{transform:translateY(-3px)}
+.app b{font-size:12.5px;font-weight:500;color:#fff;line-height:1.2;white-space:nowrap}
+.a1 i{background:linear-gradient(160deg,#ffa25c,#f0565f)}
+.a2 i{background:linear-gradient(160deg,#3fd4ae,#0d9488)}
+.a3 i{background:linear-gradient(160deg,#6b9bff,#2f5fe0)}
+.a4 i{background:linear-gradient(160deg,#b394ff,#7340e6)}
+.a5 i{background:linear-gradient(160deg,#ffcf4d,#f59e0b)}
+.a6 i{background:linear-gradient(160deg,#8e98ff,#4f46e5)}
+.a7 i{background:linear-gradient(160deg,#ff8fc4,#e0457f)}
+.a8 i{background:linear-gradient(160deg,#5ad3f5,#0a8fc9)}
+.a9 i{background:linear-gradient(160deg,#5fe08a,#16a34a)}
+@media (min-width:901px){.form-wrap > div:first-child .sub{margin-bottom:26px}.form-wrap > div:first-child .form-apps{margin-top:auto;margin-bottom:auto}}
+@media (max-width:900px){.form-apps{margin:24px auto 0;grid-template-columns:repeat(3,56px);gap:16px 24px;padding:20px 22px;border-radius:26px}.app i{width:56px;height:56px;border-radius:13px}.app i svg{width:26px;height:26px}.app b{font-size:12px}}
+@media (max-width:360px){.form-apps{gap:14px 18px;padding:18px}.app i{width:52px;height:52px;border-radius:12px}}
+@media (prefers-reduced-motion:reduce){.app i{transition:none}.app:hover i{transform:none}}
 /* header name on one line; on very narrow phones hide the tagline */
 .logo-t b,.logo-t small{white-space:nowrap}
 @media (max-width:350px){.logo-t small{display:none}.logo{gap:8px}.logo-t b{font-size:15.5px}.nav-r{gap:6px}}
