@@ -355,26 +355,7 @@ html.dark form .btn{background:#2257d6;color:#fff;box-shadow:none}
 html.dark .msgr label{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.2)}
 html.dark .msgr label:has(input:checked){background:rgba(76,141,255,.35);border-color:#7fb0ff;color:#fff}
 html.dark .msgr label:has(input:checked) input{accent-color:#7fb0ff}
-/* response timer in form */
-.timer{margin-top:26px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:20px;padding:18px 20px;max-width:380px}
-.timer-t{font-size:14px;color:#dbe6ff;margin-bottom:10px}
-.timer-d{display:flex;align-items:center;gap:6px;font-variant-numeric:tabular-nums;font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:40px;font-weight:700;line-height:1;color:#fff}
-.timer-d span{background:rgba(0,0,0,.22);border-radius:10px;padding:8px 10px;min-width:64px;text-align:center}
-.timer-d i{font-style:normal;opacity:.7;animation:blink 1s steps(1) infinite}
-.timer-u{display:flex;gap:6px;margin-top:6px;font-size:12px;color:#cfdcff}
-.timer-u span{min-width:64px;text-align:center;margin-right:10px}
-.timer-u span:last-child{margin-right:0}
-@keyframes blink{50%{opacity:.25}}
-@media (max-width:560px){.timer-d{font-size:32px}.timer-d span{min-width:54px}.timer-u span{min-width:54px}}
-.timer-d{align-items:flex-start}
-.timer-d b{display:flex;flex-direction:column;align-items:center;gap:6px;font-weight:700}
-.timer-d small{font:500 12px -apple-system,"SF Pro Text",Inter,Arial,sans-serif;color:#cfdcff}
-.timer-d i{padding-top:8px}
-/* timer centered */
-.timer{margin:30px auto 0;text-align:center;max-width:400px}
-.timer-d{justify-content:center}
 .form-wrap > div:first-child{display:flex;flex-direction:column}
-@media (min-width:901px){.form-wrap > div:first-child .timer{margin-top:auto;margin-bottom:auto}}
 .form-wrap .small a{color:#fff;text-decoration:underline}
 footer small a{color:inherit;text-decoration:underline}
 .privacy h2{font-size:22px;margin-top:34px}
@@ -448,10 +429,11 @@ html,body{overflow-x:clip}
 .serp .lbl{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:8px;margin-bottom:6px;background:var(--bg)}
 .serp.bad{border-color:var(--warn)}
 .serp.good{border-color:var(--ok)}
-/* logo instead of timer in article forms */
-.form-logo{margin-top:26px;display:flex;align-items:center;gap:16px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:20px;padding:18px 22px;max-width:380px}
-.form-logo-mk{width:60px;height:60px;border-radius:17px;background:linear-gradient(135deg,#2f6fed,#5b8cff);display:grid;place-items:center;flex:none;box-shadow:0 6px 18px rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.28)}
-.form-logo-t b{display:block;font-size:24px;color:#fff;letter-spacing:-.02em;line-height:1.1}
-.form-logo-t small{display:block;font-size:14px;color:#dbe6ff;font-weight:500;line-height:1.3;margin-top:3px}
+/* logo in request forms */
+.form-logo{margin:30px auto 0;display:grid;place-items:center;width:150px;height:150px;border-radius:44px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)}
+.form-logo-mk{width:104px;height:104px;border-radius:30px;background:linear-gradient(135deg,#5b8cff,#2f6fed 60%,#1e4fd6);display:grid;place-items:center;box-shadow:0 14px 34px rgba(8,20,60,.35),inset 0 1px 0 rgba(255,255,255,.35);border:1px solid rgba(255,255,255,.3)}
 @media (min-width:901px){.form-wrap > div:first-child .form-logo{margin-top:auto;margin-bottom:auto}}
-@media (max-width:560px){.form-logo{padding:14px 16px;gap:12px}.form-logo-mk{width:50px;height:50px;border-radius:14px}.form-logo-t b{font-size:20px}}
+@media (max-width:900px){.form-logo{margin:22px 0 0;width:112px;height:112px;border-radius:34px}.form-logo-mk{width:78px;height:78px;border-radius:23px}.form-logo-mk svg{width:40px;height:40px}}
+/* header name on one line; on very narrow phones hide the tagline */
+.logo-t b,.logo-t small{white-space:nowrap}
+@media (max-width:350px){.logo-t small{display:none}.logo{gap:8px}.logo-t b{font-size:15.5px}.nav-r{gap:6px}}
