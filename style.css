@@ -386,7 +386,7 @@ html.dark .theme-btn .i-moon{display:none}
 .lang-sw-m{display:none}
 @media (max-width:900px){.nav-r .lang-sw{display:none}.mnav .lang-sw-m{display:flex;align-self:flex-start;margin-top:12px}.mnav .lang-sw-m a{padding:8px 14px;border-top:0;color:var(--muted)}.mnav .lang-sw-m a.on{color:var(--card)}}
 .navlinks a{white-space:nowrap}
-@media (min-width:901px) and (max-width:1600px){.navlinks{gap:16px;font-size:14px}.nav .btn-tg span{display:none}.nav .btn-sm.btn-tg{width:40px;height:40px;padding:0;justify-content:center;border-radius:50%;flex:0 0 40px}}
+@media (min-width:901px){.navlinks{gap:16px;font-size:14px}.nav .btn-tg span{display:none}.nav .btn-sm.btn-tg{width:40px;height:40px;padding:0;justify-content:center;border-radius:50%;flex:0 0 40px}}
 
 picture{display:contents}picture source{display:none}
 /* сторінка статей: усі статті і фільтр */
@@ -444,10 +444,14 @@ html,body{overflow-x:clip}
 .a7 i{background:linear-gradient(160deg,#ff8fc4,#e0457f)}
 .a8 i{background:linear-gradient(160deg,#5ad3f5,#0a8fc9)}
 .a9 i{background:linear-gradient(160deg,#5fe08a,#16a34a)}
-@media (min-width:901px){.form-wrap > div:first-child .sub{margin-bottom:26px}.form-wrap > div:first-child .form-apps{margin-top:auto;margin-bottom:auto}}
+@media (min-width:901px){.form-wrap > div:first-child .sub{margin-bottom:28px}.form-wrap > div:first-child .form-apps{flex:1 0 auto;width:100%;margin:0;grid-template-columns:repeat(3,1fr);justify-items:center;justify-content:stretch;align-content:space-evenly;gap:16px 12px;padding:24px 20px}.form-wrap .app i{width:72px;height:72px;border-radius:17px}.form-wrap .app i svg{width:32px;height:32px}.form-wrap .app b{font-size:13.5px}}
 @media (max-width:900px){.form-apps{margin:24px auto 0;grid-template-columns:repeat(3,56px);gap:16px 24px;padding:20px 22px;border-radius:26px}.app i{width:56px;height:56px;border-radius:13px}.app i svg{width:26px;height:26px}.app b{font-size:12px}}
 @media (max-width:360px){.form-apps{gap:14px 18px;padding:18px}.app i{width:52px;height:52px;border-radius:12px}}
 @media (prefers-reduced-motion:reduce){.app i{transition:none}.app:hover i{transform:none}}
 /* header name on one line; on very narrow phones hide the tagline */
 .logo-t b,.logo-t small{white-space:nowrap}
 @media (max-width:350px){.logo-t small{display:none}.logo{gap:8px}.logo-t b{font-size:15.5px}.nav-r{gap:6px}}
+/* space between logo and menu on desktop */
+@media (min-width:901px){.nav{gap:18px}}
+/* narrow laptops (901-1180): menu goes into the burger so the header never overflows */
+@media (min-width:901px) and (max-width:1180px){.navlinks,.nav-r .lang-sw{display:none}.burger{display:flex}.mnav{display:none;flex-direction:column;gap:0;padding:4px 20px 14px;font-size:16px;max-width:1100px;margin:0 auto}.mnav a{padding:13px 4px;border-top:1px solid var(--line);color:var(--ink)}.mnav a:first-child{border-top:0}.menu-open .mnav{display:flex}.mnav .lang-sw-m{display:flex;align-self:flex-start;margin-top:12px}.mnav .lang-sw-m a{padding:8px 14px;border-top:0;color:var(--muted)}.mnav .lang-sw-m a.on{color:var(--card)}}
