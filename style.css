@@ -458,3 +458,52 @@ html,body{overflow-x:clip}
 @media (min-width:901px) and (max-width:1180px){.navlinks,.nav-r .lang-sw{display:none}.burger{display:flex}.mnav{display:none;flex-direction:column;gap:0;padding:4px 20px 14px;font-size:16px;max-width:1100px;margin:0 auto}.mnav a{padding:13px 4px;border-top:1px solid var(--line);color:var(--ink)}.mnav a:first-child{border-top:0}.menu-open .mnav{display:flex}.mnav .lang-sw-m{display:flex;align-self:flex-start;margin-top:12px}.mnav .lang-sw-m a{padding:8px 14px;border-top:0;color:var(--muted)}.mnav .lang-sw-m a.on{color:var(--card)}}
 /* 07.11: longer tagline under the logo wraps to 2 lines on phones */
 @media (max-width:560px){.logo-t small{white-space:normal;max-width:132px;line-height:1.2}}
+/* ===== перевірка фіду (/perevirka-fidu/) ===== */
+.fc-hero .wrap{max-width:860px}
+.fc-hero .lead{max-width:none}
+.fc-box{background:linear-gradient(135deg,#1e3a8a,#2f6fed);color:#fff;border-radius:28px;padding:28px;box-shadow:var(--shadow)}
+.fc-box label{display:block;font-weight:600;font-size:15px;margin-bottom:10px}
+.fc-row{display:flex;gap:10px}
+.fc-row input{flex:1;min-width:0}
+.fc-row .btn{white-space:nowrap}
+.fc-row .btn:disabled{opacity:.6;cursor:wait}
+.fc-demo-line,.fc-note{font-size:14px;color:#dbe6ff;margin-top:12px}
+.fc-note{margin-top:4px;font-size:13px}
+.fc-demo{background:none;border:0;color:#fff;font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer;padding:0}
+.fc-status{margin-top:18px;font-weight:600;color:var(--muted)}
+.fc-status.err{color:var(--warn)}
+.fc-out{margin-top:30px;scroll-margin-top:80px}
+.fc-sum{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fc-sum .stat{background:var(--card);border:1px solid var(--line)}
+.fc-sum .stat b{display:block;font-size:34px;line-height:1.1}
+.fc-sum .stat.bad b{color:var(--warn)}
+.fc-trunc{color:var(--muted);font-size:14px;margin-top:10px}
+.fc-h{font-size:21px;margin:30px 0 12px}
+.fc-top{display:grid;gap:12px}
+.fc-issue{display:grid;grid-template-columns:36px 1fr;gap:14px;padding:22px}
+.fc-n{width:32px;height:32px;border-radius:50%;background:#fdecec;color:var(--warn);display:grid;place-items:center;font-weight:700}
+.fc-issue h4{font-size:18px;margin-bottom:6px}
+.fc-cnt{display:inline-block;font-size:13px;font-weight:600;color:var(--warn);background:#fdecec;border-radius:999px;padding:2px 10px;margin-left:4px;vertical-align:2px}
+.fc-issue p{margin-top:6px}
+.fc-lose{color:var(--ink)!important}
+.fc-ex{font-size:14px;word-break:break-word}
+.fc-more{list-style:none;display:grid;gap:8px}
+.fc-more li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;display:grid;grid-template-columns:1fr auto;gap:4px 12px;align-items:center}
+.fc-more li b{color:var(--warn)}
+.fc-more li i{grid-column:1/-1;font-style:normal;font-size:14px;color:var(--muted);filter:blur(4px);user-select:none;pointer-events:none}
+.fc-more-note{color:var(--muted);font-size:14px;margin-top:10px}
+.fc-next{margin-top:26px}
+.fc-next .btn{margin-top:16px}
+.fc-okall p{color:var(--ink)}
+.fc-rules{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}
+.fc-rules li{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.fc-rules b{display:block;margin-bottom:4px}
+.fc-rules span{color:var(--muted);font-size:14px}
+.fc-where{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:24px}
+.fc-arts{margin-top:18px;padding-left:20px}
+.fc-arts li{margin:8px 0}
+.fc-arts a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.feed-cta .fc-ico{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent)}
+html.dark .fc-box{background:linear-gradient(135deg,#1b2a52,#24427f)}
+html.dark .fc-n,html.dark .fc-cnt{background:#3d2526}
+@media (max-width:700px){.fc-row{flex-direction:column}.fc-row .btn{justify-content:center}.fc-rules{grid-template-columns:1fr}.fc-box{padding:22px}.feed-cta .fc-ico{width:52px;height:52px}}

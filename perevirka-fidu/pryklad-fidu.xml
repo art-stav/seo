@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-11-07 10:00"><shop><name>Test</name><currencies><currency id="UAH" rate="1"/></currencies>
+<offers>
+<offer id="1" available="true"><url>https://shop.example.com/p1</url><price>2899</price><currencyId>UAH</currencyId><picture>https://shop.example.com/1.jpg</picture><vendor>Bosch</vendor><name>Шуруповерт акумуляторний Bosch 18 В, 2 АКБ, кейс</name><description><![CDATA[<p>Безщітковий двигун, крутний момент 45 Н·м, 2 акумулятори і зарядка в комплекті.</p>]]></description></offer>
+<offer id="2" available="true"><url>https://shop.example.com/p2</url><price>0</price><currencyId>UAH</currencyId><picture>http://shop.example.com/2.jpg</picture><name>ГЕНЕРАТОР БЕНЗИНОВИЙ 3,5 КВТ!!!</name><description>Короткий опис</description></offer>
+<offer id="3"><price>1500</price><name>Насос</name></offer>
+<offer id="4" available="false"><url>https://shop.example.com/p4</url><price>1699</price><currencyId>UAH</currencyId><picture>https://shop.example.com/4.jpg</picture><vendor>Makita</vendor><name>Болгарка 125 мм знижка -30% хіт продажу</name><description>Диск 125 мм, 1 100 Вт, регулювання обертів, плавний пуск, захисний кожух для роботи.</description></offer>
+<offer id="5" available="true"><url>https://shop.example.com/p5</url><price>350</price><picture>https://shop.example.com/5.jpg</picture><barcode>4820000000000</barcode><name>Лампа LЕD Е27 12 Вт тепле світло</name><description>Світлодіодна лампа з цоколем Е27, потужність 12 Вт, тепле світло 3000 К, ресурс 25000 годин.</description></offer>
+<offer id="6" available="true"><url>https://shop.example.com/p6</url><price>350</price><currencyId>UAH</currencyId><picture>https://shop.example.com/6.jpg</picture><vendor>Lux</vendor><name>Лампа LЕD Е27 12 Вт тепле світло</name><description>Світлодіодна лампа з цоколем Е27, потужність 12 Вт, тепле світло 3000 К, ресурс 25000 годин.</description></offer>
+<offer id="7" available="true"><url>https://shop.example.com/p7</url><price>450</price><currencyId>UAH</currencyId><picture>https://shop.example.com/7.jpg</picture><vendor>Cotton</vendor><name>Футболка жіноча 100% бавовна, біла, розмір M</name><description>Футболка з натуральної бавовни 100%, щільність 180 г/м², не скочується після прання.</description></offer>
+</offers></shop></yml_catalog>
