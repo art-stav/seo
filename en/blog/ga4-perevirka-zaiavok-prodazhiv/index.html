@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How to Check That GA4 Counts Leads and Sales Correctly | Roman</title>
-<meta name="description" content="Signs of broken Google Analytics 4 tracking, a 15 minute DebugView test, duplicate purchases, payment pages as sources and tips for Shopify, WooCommerce and Wix.">
+<title>GA4 Double Counting Purchases? How to Check Your Tracking</title>
+<meta name="description" content="GA4 double counting purchases or missing leads? Signs of broken tracking, a 15 minute DebugView test, duplicate purchases, payment pages as sources and fixes.">
 <link rel="canonical" href="https://seoroman.com/en/blog/ga4-perevirka-zaiavok-prodazhiv/">
 <link rel="alternate" hreflang="uk" href="https://seoroman.com/blog/ga4-perevirka-zaiavok-prodazhiv/"><link rel="alternate" hreflang="ru" href="https://seoroman.com/ru/blog/ga4-perevirka-zaiavok-prodazhiv/"><link rel="alternate" hreflang="en" href="https://seoroman.com/en/blog/ga4-perevirka-zaiavok-prodazhiv/"><link rel="alternate" hreflang="x-default" href="https://seoroman.com/blog/ga4-perevirka-zaiavok-prodazhiv/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="How to Check That GA4 Counts Leads and Sales Correctly | Roman">
-<meta property="og:description" content="Signs of broken Google Analytics 4 tracking, a 15 minute DebugView test, duplicate purchases, payment pages as sources and tips for Shopify, WooCommerce and Wix.">
+<meta property="og:title" content="GA4 Double Counting Purchases? How to Check Your Tracking">
+<meta property="og:description" content="GA4 double counting purchases or missing leads? Signs of broken tracking, a 15 minute DebugView test, duplicate purchases, payment pages as sources and fixes.">
 <meta property="og:url" content="https://seoroman.com/en/blog/ga4-perevirka-zaiavok-prodazhiv/">
 <meta property="og:image" content="https://seoroman.com/img/roman.jpg">
 <meta property="og:locale" content="en_US">
@@ -119,6 +119,8 @@
 <li>One connection method plus transaction_id removes duplicates.</li>
 <li>Compare GA4 with your store admin once a week.</li>
 </ol>
+
+<p>If you want analytics, Google Ads and the website looked after together, without hiring a separate person for each, see <a href="../../../en/pid-klyuch/">done-for-you digital marketing</a>.</p>
 
 <h2>FAQ</h2>
 <details><summary>Why does GA4 show fewer orders than my store admin?</summary><p>Some shoppers decline cookies or use ad blockers, and some pay by card and never return to the thank you page. A gap of 10-20% is normal. If GA4 sees less than half of your orders, something is set up wrong.</p></details><details><summary>What is a key event in GA4?</summary><p>It is an action you count as a result: a lead, a purchase, a call. It used to be called a conversion. Key events are what you later import into Google Ads so your ads learn from real sales.</p></details><details><summary>How long until data shows up in reports?</summary><p>In the Realtime report and DebugView you see an event within seconds. Standard reports take 24-48 hours, so don't panic if yesterday's purchase isn't there yet.</p></details><details><summary>Can I check GA4 without a developer?</summary><p>Yes. Most checks in this article only need Editor access to GA4 and the Chrome browser. You need a developer when an event isn't sent at all or is sent with errors.</p></details><div class="author"><picture><source type="image/webp" srcset="../../../img/roman-200.webp"><img src="../../../img/roman-200.jpg" alt="Roman, Google Ads and SEO specialist" width="200" height="200" loading="lazy"></picture><div><b>Roman SEO</b><p>I set up Google Shopping, Google Ads and SEO for online stores and small businesses. I write in plain language, no fluff. If something from this article doesn't work for you, message me and I'll help.</p><a class="btn btn-ghost btn-sm" href="https://t.me/seo5800" target="_blank" rel="noopener">Message me on Telegram</a></div></div>
