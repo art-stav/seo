@@ -339,6 +339,8 @@ html.dark .ba .good{border-color:#2f5c40}
 html.dark .done li,html.dark .card li{color:#d0d3d8}
 html.dark .lg{color:#b0b3b8}
 html.dark .lg-more{background:var(--accent-soft)}
+html.dark .post .tag,html.dark .arow .tag{color:#8fb6ff}
+html.dark .ftag.on{background:#2f6fe0;border-color:#2f6fe0}
 html.dark .chip{background:var(--card);border-color:var(--line)}
 html.dark .form-wrap{background:linear-gradient(135deg,#1b2a52,#24427f)}
 html.dark input,html.dark textarea{background:#3a3b3c;color:var(--ink)}
