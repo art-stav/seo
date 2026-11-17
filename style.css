@@ -551,3 +551,5 @@ html.dark .fc-n,html.dark .fc-cnt{background:#3d2526}
 .about-story .card{padding:24px 28px}
 .about-story p{font-size:18px;line-height:1.7;color:var(--ink);margin:0}
 @media (max-width:600px){.about-story h2{font-size:22px}.about-story .card{padding:18px 18px}.about-story p{font-size:17px}}
+.tool-form:hover{transform:none}
+.tool-form .fi-form{margin:4px 0 0}
