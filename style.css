@@ -528,3 +528,4 @@ html.dark .fc-n,html.dark .fc-cnt{background:#3d2526}
   .help-bar button{background:none;border:0;color:#9aa4b2;font-size:22px;line-height:1;padding:4px 6px;cursor:pointer}
   body.hb-on .back-btn{bottom:84px}
 }
+.fi-form .btn{background:var(--accent);color:#fff;border:0}
