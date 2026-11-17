@@ -543,3 +543,11 @@ html.dark .fc-n,html.dark .fc-cnt{background:#3d2526}
 .tool-card p{margin:0 0 8px;color:var(--muted);font-size:15px}
 .tool-ico{flex:none;width:48px;height:48px;border-radius:14px;background:var(--accent-soft,#e8efff);color:var(--accent);display:grid;place-items:center}
 .tool-go{color:var(--accent);font-weight:600;font-size:15px}
+
+/* 17.11 «Про мене»: читабельна колонка тексту */
+.about-story{padding:14px 0}
+.about-story .wrap{max-width:760px}
+.about-story h2{font-size:26px;line-height:1.25;margin:0 0 12px}
+.about-story .card{padding:24px 28px}
+.about-story p{font-size:18px;line-height:1.7;color:var(--ink);margin:0}
+@media (max-width:600px){.about-story h2{font-size:22px}.about-story .card{padding:18px 18px}.about-story p{font-size:17px}}
