@@ -510,3 +510,21 @@ html,body{overflow-x:clip}
 html.dark .fc-box{background:linear-gradient(135deg,#1b2a52,#24427f)}
 html.dark .fc-n,html.dark .fc-cnt{background:#3d2526}
 @media (max-width:700px){.fc-row{flex-direction:column}.fc-row .btn{justify-content:center}.fc-rules{grid-template-columns:1fr}.fc-box{padding:22px}.feed-cta .fc-ico{width:52px;height:52px}}
+/* 17.11 продаючі статті: рядок під вступом, поле перевірки фіду в статті, плашка на телефоні */
+.quick-help{margin:6px 0 22px;padding:12px 16px;border-left:3px solid var(--accent,#2f6fed);background:rgba(47,111,237,.06);border-radius:0 12px 12px 0;font-size:16px;line-height:1.5}
+.quick-help a{font-weight:600}
+.inline-cta.feed-inline{grid-template-columns:64px 1fr}
+.fi-form{display:flex;gap:8px;margin:12px 0 8px}
+.fi-form input{flex:1;min-width:0;height:46px;padding:0 14px;border:1px solid var(--line);border-radius:12px;font:inherit;font-size:15px;background:#fff}
+.fi-form .btn{height:46px;flex:none}
+.feed-inline small{display:block;color:var(--muted);font-size:13px;line-height:1.45}
+@media (max-width:700px){.inline-cta.feed-inline{grid-template-columns:1fr}.feed-inline .fc-ico{display:none}.fi-form{flex-direction:column}.fi-form .btn{grid-column:auto;width:100%}}
+.help-bar{display:none}
+@media (max-width:700px){
+  .help-bar{display:flex;align-items:center;gap:10px;position:fixed;left:12px;right:12px;bottom:12px;z-index:31;background:#0f172a;color:#fff;border-radius:16px;padding:10px 10px 10px 16px;font-size:14.5px;line-height:1.3;box-shadow:0 8px 24px rgba(15,23,42,.25);transform:translateY(140%);transition:transform .3s}
+  .help-bar.on{transform:none}
+  .help-bar span{flex:1}
+  .help-bar a{background:#229ED9;color:#fff;border-radius:10px;padding:9px 12px;font-weight:600;white-space:nowrap;text-decoration:none}
+  .help-bar button{background:none;border:0;color:#9aa4b2;font-size:22px;line-height:1;padding:4px 6px;cursor:pointer}
+  body.hb-on .back-btn{bottom:84px}
+}
