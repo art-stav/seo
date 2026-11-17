@@ -553,3 +553,12 @@ html.dark .fc-n,html.dark .fc-cnt{background:#3d2526}
 @media (max-width:600px){.about-story h2{font-size:22px}.about-story .card{padding:18px 18px}.about-story p{font-size:17px}}
 .tool-form:hover{transform:none}
 .tool-form .fi-form{margin:4px 0 0}
+
+/* 17.11 мова: показуємо тільки поточну, інші випадають по кліку/наведенню */
+.lang-dd{position:relative;flex:none}
+.lang-cur{display:flex;align-items:center;gap:5px;font:inherit;font-size:13px;font-weight:600;padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);cursor:pointer;line-height:1}
+.lang-dd .lang-menu{display:none;position:absolute;right:0;top:calc(100% + 6px);flex-direction:column;gap:2px;border-radius:14px;padding:5px;min-width:76px;z-index:40;box-shadow:0 10px 30px rgba(15,23,42,.14)}
+.lang-dd .lang-menu a{text-align:center}
+.lang-dd.open .lang-menu{display:flex}
+@media (hover:hover){.lang-dd:hover .lang-menu{display:flex}.lang-dd:hover .lang-menu::before{content:"";position:absolute;left:0;right:0;top:-8px;height:8px}}
+@media (max-width:1180px){.nav-r .lang-dd{display:none}}
