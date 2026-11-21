@@ -515,7 +515,7 @@ html.dark .fc-n,html.dark .fc-cnt{background:#3d2526}
 .quick-help a{font-weight:600}
 .inline-cta.feed-inline{grid-template-columns:64px 1fr}
 .fi-form{display:flex;gap:8px;margin:12px 0 8px}
-.fi-form input{flex:1;min-width:0;height:46px;padding:0 14px;border:1px solid var(--line);border-radius:12px;font:inherit;font-size:15px;background:#fff}
+.fi-form input{flex:1;min-width:0;height:46px;padding:0 14px;border:1px solid var(--line);border-radius:12px;font:inherit;font-size:16px;background:#fff}
 .fi-form .btn{height:46px;flex:none}
 .feed-inline small{display:block;color:var(--muted);font-size:13px;line-height:1.45}
 @media (max-width:700px){.inline-cta.feed-inline{grid-template-columns:1fr}.feed-inline .fc-ico{display:none}.fi-form{flex-direction:column}.fi-form .btn{grid-column:auto;width:100%}}
