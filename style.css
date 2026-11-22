@@ -562,3 +562,9 @@ html.dark .fc-n,html.dark .fc-cnt{background:#3d2526}
 .lang-dd.open .lang-menu{display:flex}
 @media (hover:hover){.lang-dd:hover .lang-menu{display:flex}.lang-dd:hover .lang-menu::before{content:"";position:absolute;left:0;right:0;top:-8px;height:8px}}
 @media (max-width:1180px){.nav-r .lang-dd{display:none}}
+/* 22.11 блок «Вартість» на сторінках послуг */
+.price-card .price{font-size:26px;font-weight:700;letter-spacing:-.02em;color:var(--accent);margin:2px 0 6px}
+.price-card .price span{font-size:15px;font-weight:500;color:var(--muted);letter-spacing:0}
+.price-note{margin-top:22px;max-width:760px;color:var(--muted);font-size:16px}
+.price-note p+p{margin-top:8px}
+.price-note b{color:var(--ink)}
