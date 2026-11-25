@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://seoroman.com/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://seoroman.com/shopping/</loc><lastmod>2026-11-25</lastmod></url>
-  <url><loc>https://seoroman.com/seo/</loc><lastmod>2026-11-23</lastmod></url>
-  <url><loc>https://seoroman.com/dodatky/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://seoroman.com/seo/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://seoroman.com/dodatky/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://seoroman.com/optymizatsiia-saitu/</loc><lastmod>2026-11-22</lastmod></url>
-  <url><loc>https://seoroman.com/internet-magazyn/</loc><lastmod>2026-11-22</lastmod></url>
-  <url><loc>https://seoroman.com/pid-klyuch/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://seoroman.com/internet-magazyn/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://seoroman.com/pid-klyuch/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://seoroman.com/google-ads/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/pro-mene/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/pryklady/</loc><lastmod>2026-11-22</lastmod></url>
@@ -35,7 +35,7 @@
   <url><loc>https://seoroman.com/blog/bezkoshtovni-pokazy-tovariv-google/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/blog/dostavka-povernennia-merchant-center/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/blog/sait-konstruktor-chy-svii/</loc><lastmod>2026-11-22</lastmod></url>
-  <url><loc>https://seoroman.com/blog/skilky-koshtuie-sait/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://seoroman.com/blog/skilky-koshtuie-sait/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://seoroman.com/blog/seo-audyt-saitu/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/blog/sait-ne-pryvodyt-zaiavky/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/blog/perevirka-nalashtuvannia-google-ads/</loc><lastmod>2026-11-22</lastmod></url>
@@ -54,8 +54,8 @@
   <url><loc>https://seoroman.com/ru/seo/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/ru/dodatky/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/ru/optymizatsiia-saitu/</loc><lastmod>2026-11-22</lastmod></url>
-  <url><loc>https://seoroman.com/ru/internet-magazyn/</loc><lastmod>2026-11-22</lastmod></url>
-  <url><loc>https://seoroman.com/ru/pid-klyuch/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://seoroman.com/ru/internet-magazyn/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://seoroman.com/ru/pid-klyuch/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://seoroman.com/ru/google-ads/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/ru/obo-mne/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/ru/kartky/</loc><lastmod>2026-11-22</lastmod></url>
@@ -83,7 +83,7 @@
   <url><loc>https://seoroman.com/ru/blog/bezkoshtovni-pokazy-tovariv-google/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/ru/blog/dostavka-povernennia-merchant-center/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/ru/blog/sait-konstruktor-chy-svii/</loc><lastmod>2026-11-22</lastmod></url>
-  <url><loc>https://seoroman.com/ru/blog/skilky-koshtuie-sait/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://seoroman.com/ru/blog/skilky-koshtuie-sait/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://seoroman.com/ru/blog/seo-audyt-saitu/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/ru/blog/sait-ne-pryvodyt-zaiavky/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/ru/blog/perevirka-nalashtuvannia-google-ads/</loc><lastmod>2026-11-22</lastmod></url>
@@ -102,8 +102,8 @@
   <url><loc>https://seoroman.com/en/seo/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/en/dodatky/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/en/optymizatsiia-saitu/</loc><lastmod>2026-11-22</lastmod></url>
-  <url><loc>https://seoroman.com/en/internet-magazyn/</loc><lastmod>2026-11-22</lastmod></url>
-  <url><loc>https://seoroman.com/en/pid-klyuch/</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://seoroman.com/en/internet-magazyn/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://seoroman.com/en/pid-klyuch/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://seoroman.com/en/google-ads/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/en/about/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/en/kartky/</loc><lastmod>2026-11-22</lastmod></url>
@@ -130,7 +130,7 @@
   <url><loc>https://seoroman.com/en/blog/bezkoshtovni-pokazy-tovariv-google/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/en/blog/dostavka-povernennia-merchant-center/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/en/blog/sait-konstruktor-chy-svii/</loc><lastmod>2026-11-22</lastmod></url>
-  <url><loc>https://seoroman.com/en/blog/skilky-koshtuie-sait/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://seoroman.com/en/blog/skilky-koshtuie-sait/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://seoroman.com/en/blog/seo-audyt-saitu/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/en/blog/sait-ne-pryvodyt-zaiavky/</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://seoroman.com/en/blog/perevirka-nalashtuvannia-google-ads/</loc><lastmod>2026-11-22</lastmod></url>
