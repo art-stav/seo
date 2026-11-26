@@ -568,3 +568,10 @@ html.dark .fc-n,html.dark .fc-cnt{background:#3d2526}
 .price-note{margin-top:22px;max-width:760px;color:var(--muted);font-size:16px}
 .price-note p+p{margin-top:8px}
 .price-note b{color:var(--ink)}
+/* 26.11 картка «Послуга» в кінці статті */
+.svc-box{margin:34px 0 8px}
+.svc-box .card{padding:22px 24px}
+.svc-box h3{margin:0 0 6px;font-size:21px}
+.svc-box p{margin:0;font-size:16px}
+.svc-also{display:block;margin-top:12px;font-size:15.5px;color:var(--muted)}
+.svc-also a{font-weight:600}
